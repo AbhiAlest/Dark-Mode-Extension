@@ -1,0 +1,12 @@
+{
+  "name": "Dark Mode Everywhere",
+  "version": "1.0",
+  "description": "Enables dark mode on all websites",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["darkmode.css"]
+    }
+  ]
+}
